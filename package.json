@@ -1,0 +1,24 @@
+{
+  "name": "aws-serverless",
+  "version": "1.0.0",
+  "description": "A simple registration service for persons",
+  "main": "person.js",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-localstack": "^0.4.35",
+    "serverless-mocha-plugin": "^1.12.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemarquez/aws-serverless.git"
+  },
+  "author": "David j. Marquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chemarquez/aws-serverless/issues"
+  },
+  "homepage": "https://github.com/chemarquez/aws-serverless#readme"
+}
