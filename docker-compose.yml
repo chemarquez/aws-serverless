@@ -7,7 +7,7 @@ services:
       - "8080:8080"
     environment:
       # Only start a subset of services required for testing.
-      - SERVICES=s3,sns,sqs,apigateway,lambda,dynamodb,dynamodbstreams,cloudformation
+      - SERVICES=s3,sns,sqs,sts,apigateway,lambda,dynamodb,dynamodbstreams,cloudformation,iam
       # - DEBUG=${DEBUG- }
       # - DATA_DIR=${DATA_DIR- }
       # - LAMBDA_EXECUTOR=${LAMBDA_EXECUTOR- }
